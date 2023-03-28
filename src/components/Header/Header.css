@@ -1,0 +1,35 @@
+
+.site-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: darkslategray;
+}
+
+.site-header__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.student-title{
+    color: #fff;
+}
+
+.sitenav__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.sitenav__link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
